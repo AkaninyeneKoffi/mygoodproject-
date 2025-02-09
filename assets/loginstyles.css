@@ -1,0 +1,134 @@
+body {
+    background: url(images/plain.jfif) no-repeat;
+    background-size: cover;
+}
+.form {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(10px);
+    background-position: center;
+    width: 50%;
+    margin: 0 auto;
+    
+}
+input {
+    margin: 10px 0px 20px 10px;
+    border: none;
+    border-bottom: 1px solid #d4d4d4;
+    padding: 20px;
+    width: 80%;
+    background: transparent;
+    
+}
+input:focus {
+    outline: none;
+    border-bottom: 1px solid #0d095e;
+    border-radius: 10px;
+    background: nones;
+     
+}
+input::placeholder {
+    color: rgb(246, 246, 247);
+    font-size: 1rem;
+    font-style: italic;
+    background: transparent;
+    border: none;
+} 
+button {
+    text-decoration: none;
+    outline: none;
+    color: blue;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: x-large;
+    border-radius: 20px;
+    border:none;
+    display: flex;
+    justify-content: center;
+    transition: 1s;
+    
+    
+}
+button:hover {
+    font-style: italic;
+    background-color: blue;
+    color: white;
+    transform: scale(1.03);
+  box-shadow: rgba(9, 16, 24, 0.878) 0px 23px 10px -20px;
+
+}
+h1 {
+    color: white;
+    margin-top: 50px;
+    margin-left: 50px;
+    font-size: clamp(
+        1.5rem, 10vw, 5rem
+    );
+    text-transform: capitalize;
+    
+    font-style: italic;
+    transition: 1s;
+
+}
+p{
+    color: rgb(31, 30, 30);
+    margin-left: 10px;
+    font-size: large;
+
+
+}
+
+a {
+    text-decoration: none;
+    font-size: clamp(
+       16px, 10vw, 1rem
+    );
+    display: inline;
+    transition: 0.5s;
+    cursor:pointer;
+    
+}
+a:hover {
+    color: #fff;
+    font-size: x-large;
+    cursor: pointer;
+}
+
+.verify {
+    position: relative;
+    padding: 10px;
+    margin-left: 30%
+}
+.line {
+    height: 1px;
+    flex: 1 1 0%;
+    background-color: rgba(55, 65, 81, 1);
+}
+.social-icons {
+    display: flex;
+    justify-content: center;
+}
+.social-icons .icon {
+    border-radius: 0.125rem;
+    padding: 0.75rem;
+    border: none;
+    background-color: transparent;
+    margin-left: 8px;
+}
+  
+.social-icons .icon svg {
+    height: 1.25rem;
+    width: 1.25rem;
+    fill: #fff;
+}
+.message {
+    margin-left: 20%;
+    font-size: clamp(
+       16px, 10vw, 1rem
+    );
+}
+
+  
